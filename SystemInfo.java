@@ -1,5 +1,3 @@
-import java.util.Properties;
-
 public class SystemInfo {
     public static void main(String[] args) {
         // Get specific properties
@@ -10,6 +8,7 @@ public class SystemInfo {
         System.out.println("Operating System: " + osName);
         System.out.println("OS Version: " + osVersion);
         System.out.println("Java Version: " + javaVersion);
+        System.out.println();
 
         // Get all system properties
         //Properties properties = System.getProperties();
